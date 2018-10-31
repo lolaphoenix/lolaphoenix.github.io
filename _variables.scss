@@ -1,0 +1,107 @@
+// Colours.
+
+$brown-light: #60564e;
+$brown: #35302c;
+$brown-dark: #282421;
+$yellow: #ffd400;
+$pink-light: #F6E3ED;
+$pink-mid: #e6aac0;
+$pink-dark: #BB1F83;
+$blue-light: #c2dee2;
+$blue: #006F8E;
+$green-light: #b9cc3e;
+$green: #5d7a13;
+$orange-dark: #ad530e;
+$orange: #b75d11;
+$orange-light: #fff2c0;
+$red: #e73437;
+$grey: #35302c;
+$grey-mid: #d0cdca;
+$grey-light: #f6f5f3;
+
+// Font stacks.
+$museo-sans: "museo-sans", "Helvetica", sans-serif;
+// Although Museo Slab is a serif font, Helvetica/sans-serif is a less jarring fallback.
+$museo-slab: "museo-slab", "Helvetica", sans-serif;
+
+// Colour map.
+$colour-map: (
+  'pink-brown': (
+    font: $pink-mid,
+    background: $brown,
+    complement-font: $pink-dark,
+    complement-background: $pink-light
+  ),
+  'white-green': (
+    font: #ffffff,
+    background: $green,
+    complement-font: #49600f,
+    complement-background: #edf1cb
+  ),
+  'white-blue': (
+    font: #ffffff,
+    background: $blue,
+    complement-font: #006f8e,
+    complement-background: #e6f4f7
+  ),
+  'black-orange': (
+    font: #ffffff,
+    background: $orange,
+    complement-font: #ad530e,
+    complement-background: #fff2c0
+  ),
+  'white-brown': (
+    font: #ffffff,
+    background: $brown,
+    complement-font: #35302c,
+    complement-background: #d0cdca
+  ),
+  'white-pink': (
+    font: #ffffff,
+    background: $pink-dark,
+  ),
+  'pink': (
+    font: $pink-dark,
+    background: $pink-light,
+    meta-font: #fff,
+    meta-background: $pink-dark,
+    meta-border: $pink-mid
+  ),
+  'blue': (
+    font: #006f8e,
+    background: #e6f4f7,
+    meta-font: #fff,
+    meta-background: #006f8e,
+    meta-border: $blue
+  ),
+  'green': (
+    font: #49600f,
+    background: #edf1cb,
+    meta-font: #fff,
+    meta-background: #49600f,
+    meta-border: $green
+  ),
+  'orange': (
+    font: $orange-dark,
+    background: $orange-light,
+    meta-font: #fff,
+    meta-background: $orange-dark,
+    meta-border: $orange-light
+  ),
+  'grey': (
+    font: $grey,
+    background: $grey-mid,
+    meta-font: #fff,
+    meta-background: $grey,
+    meta-border: $grey-mid
+  )
+);
+
+// Colour map for graphical featured item.
+$feature-colour-map: (
+  'pink': $pink-dark,
+  'blue': #006f8e,
+  'green': #49600f,
+  'orange': $orange-dark,
+  'grey': $grey
+);
