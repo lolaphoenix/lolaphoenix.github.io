@@ -161,4 +161,3 @@
   "163. I know an eighteenth spell which I will never teach to a girl or a woman, unless maybe to the one I call my wife, or my sister. It is much better that one alone should know this, which is the last of the spells.",
   "164. Now the words of the One-Eyed are heard in Valhalla, for the benefit of humans, for the harm of giants; health to you who speak them, health to you who know them, joy to you who learn them, health to you who hear them."
 
-];
