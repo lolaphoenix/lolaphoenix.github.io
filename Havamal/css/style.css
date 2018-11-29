@@ -1,0 +1,51 @@
+.quote-section {
+  margin-top: 10%;
+}
+
+.quote-column {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19); /*paper shadow*/
+}
+
+.quote-rows {
+  padding: 35px 25px 35px 25px;
+}
+
+.quote-content-row {
+  font-weight: bold;
+  font-size: 25px;
+}
+.quote-author {
+  padding-top: 20px;
+}
+
+.quote-social-row {
+  padding-top: 30px;
+}
+
+.quote-author {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.new-quote-btn {
+  font-weight: bold;
+  outline: none !important; // to remove unwanted border created around the button when clicked
+}
+
+.new-quote-btn:hover, .tweet-quote:hover { /* NO SPACE before HOVER otherwise hover doesn't work :P*/
+  opacity: 0.8 !important;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: white;
+}
